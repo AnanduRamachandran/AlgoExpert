@@ -24,4 +24,3 @@ def spiralTraverse(array):
 		startCol += 1
 		endCol -= 1
 	return result
-
