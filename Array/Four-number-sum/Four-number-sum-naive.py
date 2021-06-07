@@ -6,4 +6,4 @@ def fourNumberSum(array, targetSum):
 				for l in range(k+1, len(array)):
 					if array[i]+array[j]+array[k]+array[l] == targetSum:
 						nextArray.append([array[i], array[j], array[k], array[l]])
-	return nextArra
+	return nextArray
