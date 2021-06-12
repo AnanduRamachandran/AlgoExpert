@@ -14,10 +14,4 @@ def generateDocument(characters, document):
 		elif document[i] in char:
 			char[document[i]] -= 1
 			
-	if len(characters) == len(document) and len(document) == 0:
-		return True
-	
-	elif len(characters) == 0:
-		return False
-	else:
-		return True
+	return True
