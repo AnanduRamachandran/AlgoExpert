@@ -1,3 +1,6 @@
+#O(1) - Time Complexity
+#O(N) - Space Complexity
+
 def bubbleSort(array):
     isSorted = False
 	counter = 0
