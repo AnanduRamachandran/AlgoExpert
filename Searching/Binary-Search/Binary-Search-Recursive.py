@@ -1,3 +1,5 @@
+#O(log(n)) time, O(log(n)) space
+
 def binarySearch(array, target):
     return binarySearchHelper(array, target, 0, len(array) - 1)
 							 
