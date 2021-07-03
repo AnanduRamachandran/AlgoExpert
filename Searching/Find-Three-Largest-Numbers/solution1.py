@@ -6,7 +6,7 @@ def findThreeLargestNumbers(array):
 				if array[i] > c:
 					a = b
 					b = c
-					c = array[i]
+					c = array[i] 
 				else:
 					a = b
 					b = array[i]
